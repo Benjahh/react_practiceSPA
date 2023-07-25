@@ -77,7 +77,7 @@ export const backEndTech = [
         {
             id: 1,
             skillName: "NodeJS",
-            Icon: <SiNodedotjs/>  
+            Icon: <SiNodedotjs size="50"/>  
         },
     ]
    },
@@ -88,12 +88,12 @@ export const backEndTech = [
         {
             id: 2,
             skillName: "MongoDB",
-            Icon: <SiMongodb/>  
+            Icon: <SiMongodb size="50"/>  
         },
         {
             id: 3,
             skillName: "ExpressJS",
-            Icon: <SiExpress/>
+            Icon: <SiExpress size="50"/>
         },
     ]
    }
@@ -103,17 +103,17 @@ export const otherTech = [
     {
         id: 1,
         skillName: "Vite",
-        Icon: <SiVite/>
+        Icon: <SiVite size="50"/>
     },
     {
         id: 2,
         skillName: "Git",
-        Icon: <SiGit/>
+        Icon: <SiGit size="50"/>
     },
     {
         id: 3,
         skillName: "Redux",
-        Icon: <SiRedux/>
+        Icon: <SiRedux size="50"/>
     }
 ]
 
