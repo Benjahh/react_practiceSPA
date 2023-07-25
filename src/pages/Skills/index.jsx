@@ -4,20 +4,20 @@ import { frontEndTech, backEndTech, otherTech } from '@/data'
 export const SkillPage = () => {
   const flexBetweeen = "flex justify-center items-center"
   return (
-    <div className={`bg-black border-yellow-500 border-2 flex-col gap-2 ${flexBetweeen} w-full h-full`}>
-      <h2 className='border-2 border-yellow-300 text-xl '>TITLE</h2>
+    <div className={`bg-black flex-col gap-2 ${flexBetweeen} w-full h-full`}>
+      <h2 className='text-xl '>TITLE</h2>
       <div className="w-5/6 p-2 flex flex-col gap-4 ">
-        <section className='flex justify-between gap-2 flex-row border-2  border-orange-300'>
+        <section className='flex justify-between gap-2 flex-row'>
 
-          <div id='frontend' className='border-2 rounded-md border-secondColor'>
+          <div id='frontend' className=' rounded-md econdColor'>
             <h2 className={`flex-col ${flexBetweeen} text-thirdColor>`}>Front-End</h2>
-            <div id='frontendskills' className='grid p-4 grid-rows-3'>
+            <div id='frontendskills' className='flex flex-col'>
               	{frontEndTech.map((group) => (
-                  <div key={group.id} className='gap-4 border-2 border-yellow-300 p-4 flex flex-row'>
+                  <div key={group.id} className='gap-4 p-2 flex flex-row'>
                     {group.techs.map(({Icon, skillName, id})=>(
-                        <div key={id} className='gap-2 rounded-3xl w-28 h-28 items-center bg-firstColor flex-col flex justify-center'>
+                        <div key={id} className='p-4 rounded-3xl w-28 h-28 gap-2 items-center bg-firstColor flex-col flex justify-center'>
                           <icon className="text-thirdColor">{Icon}</icon>
-                          <h3 className='text-secondColor '>{skillName}</h3>
+                          <h3 className='text-white'>{skillName}</h3>
                         </div>
                     ))}
                   </div>
@@ -25,13 +25,13 @@ export const SkillPage = () => {
             </div>
           </div>
 
-          <div id='backend' className={`border-2 rounded-md h-auto flex flex-col border-secondColor`}>
+          <div id='backend' className={`rounded-md h-auto flex flex-col econdColor`}>
             <h2 className={`text-thirdColor ${flexBetweeen}`}>Back-End</h2>
-              <div id='frontendskills' className='grid grid-rows-2 border-2 h-full justify-end border-green-400'>
+              <div id='frontendskills' className='flex flex-col justify-end self-end h-full'>
                 {backEndTech.map((group) => (
-                  <div key={group.id} className='gap-4 border-2 border-yellow-300 self-end justify-items-end ju p-4 flex flex-row-reverse'>
+                  <div key={group.id} className='gap-4 p-2 flex flex-row-reverse'>
                     {group.techs.map(({id, skillName, Icon}) => (
-                      <div key={id} className='flex flex-col w-28 h-28 rounded-3xl items-center gap-2 bg-firstColor p-2'>
+                      <div key={id} className='flex   flex-col w-28 h-28 rounded-3xl items-center gap-2 bg-firstColor p-4'>
                         <icon className="rounded-md text-thirdColor">{Icon}</icon> 
                         <h3 className='text-white'>{skillName}</h3>
                       </div>
@@ -43,11 +43,11 @@ export const SkillPage = () => {
 
         </section >
 
-          <div id='other' className='border-2 rounded-md border-secondColor'> 
+          <div id='other' className=' rounded-md econdColor'> 
           <h2 className='flex flex-row justify-center text-thirdColor'>Additional</h2>
            <div className='flex-row flex items-center justify-center gap-6'>
             {otherTech.map(({skillName, id, Icon})=>(
-              <div key={id} className=' border-2 border-black flex flex-col items-center gap-2 p-2'>
+              <div key={id} className='flex flex-col items-center gap-2 p-2'>
                 <icon className="text-firstColor ">{Icon}</icon>
                 <h3 className='text-white'>{skillName}</h3>
               </div>
