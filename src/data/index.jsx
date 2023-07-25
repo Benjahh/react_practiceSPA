@@ -14,6 +14,8 @@ import {
 
 } from "react-icons/si"
 
+export const flexBetweeen = "flex justify-center items-center"
+
 export const frontEndTech = [
     {    
         id: 1,
@@ -69,23 +71,6 @@ export const frontEndTech = [
 
 
 export const backEndTech = [
-<<<<<<< HEAD
-    {
-        id: 1,
-        skillName: "NodeJS",
-        Icon: <SiNodedotjs/>  
-    },
-    {
-        id: 2,
-        skillName: "MongoDB",
-        Icon: <SiMongodb/>  
-    },
-    {
-        id: 3,
-        skillName: "ExpressJS",
-        Icon: <SiExpress/>
-    },
-=======
    
    {
     id: 1,
@@ -114,36 +99,23 @@ export const backEndTech = [
         },
     ]
    }
->>>>>>> origin/master
 ]
 
 export const otherTech = [
     {
         id: 1,
         skillName: "Vite",
-<<<<<<< HEAD
-        Icon: <SiVite/>
-=======
         Icon: <SiVite size="50"/>
->>>>>>> origin/master
     },
     {
         id: 2,
         skillName: "Git",
-<<<<<<< HEAD
-        Icon: <SiGit/>
-=======
         Icon: <SiGit size="50"/>
->>>>>>> origin/master
     },
     {
         id: 3,
         skillName: "Redux",
-<<<<<<< HEAD
-        Icon: <SiRedux/>
-=======
         Icon: <SiRedux size="50"/>
->>>>>>> origin/master
     }
 ]
 
@@ -152,12 +124,6 @@ export const projects = [
         id: 1,
         projectName: "SocialApp",
         projectLink : "",
-<<<<<<< HEAD
-        projectSkill: [
-            {
-                id: 1,
-
-=======
         projectDescription: "",
         projectImage: "",
         projectSkill: [
@@ -165,7 +131,6 @@ export const projects = [
                 id: 3,
                 skillName: "Redux",
                 Icon: <SiRedux size="50"/>
->>>>>>> origin/master
             }
     ]
     },
@@ -173,11 +138,6 @@ export const projects = [
         id: 2, 
         projectName: "FitnessApp",
         projectLink: "",
-<<<<<<< HEAD
-        projectSkill: [
-            {
-                id: 1
-=======
         projectDescription: "",
         projectImage: "",
         projectSkill: [
@@ -185,7 +145,6 @@ export const projects = [
                 id: 3,
                 skillName: "Redux",
                 Icon: <SiRedux size="50"/>
->>>>>>> origin/master
             }
         ]
     }

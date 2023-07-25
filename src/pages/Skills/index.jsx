@@ -1,8 +1,8 @@
 import React from 'react'
 import { frontEndTech, backEndTech, otherTech } from '@/data' 
-
+import { flexBetweeen } from '@/data'
 export const SkillPage = () => {
-  const flexBetweeen = "flex justify-center items-center"
+  
   return (
     <div className={`bg-black flex-col gap-2 ${flexBetweeen} w-full h-full`}>
       <h2 className='text-xl '>TITLE</h2>
@@ -31,7 +31,7 @@ export const SkillPage = () => {
                 {backEndTech.map((group) => (
                   <div key={group.id} className='gap-4 p-2 flex flex-row-reverse'>
                     {group.techs.map(({id, skillName, Icon}) => (
-                      <div key={id} className='flex   flex-col w-28 h-28 rounded-3xl items-center gap-2 bg-firstColor p-4'>
+                      <div key={id} className='flex flex-col w-28 h-28 rounded-3xl items-center gap-2 bg-firstColor p-4'>
                         <icon className="rounded-md text-thirdColor">{Icon}</icon> 
                         <h3 className='text-white'>{skillName}</h3>
                       </div>
@@ -45,10 +45,10 @@ export const SkillPage = () => {
 
           <div id='other' className='rounded-md'> 
           <h2 className='flex flex-row justify-center text-thirdColor'>Additional</h2>
-           <div className='flex-row flex items-center justify-center gap-6'>
+           <div className={`flex-row ${flexBetweeen} gap-6`}>
             {otherTech.map(({skillName, id, Icon})=>(
-              <div key={id} className='flex flex-col items-center gap-2 p-2'>
-                <icon className="text-firstColor ">{Icon}</icon>
+              <div key={id} className='flex flex-col  w-28 h-28 bg-thirdColor rounded-3xl items-center gap-2 p-4'>
+                <icon className="text-firstColor">{Icon}</icon>
                 <h3 className='text-white'>{skillName}</h3>
               </div>
             ))}
