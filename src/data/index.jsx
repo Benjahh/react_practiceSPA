@@ -122,11 +122,13 @@ export const projects = [
         id: 1,
         projectName: "SocialApp",
         projectLink : "",
+        projectDescription: "",
+        projectImage: "",
         projectSkill: [
             {
-               
-                
-
+                id: 3,
+                skillName: "Redux",
+                Icon: <SiRedux size="50"/>
             }
     ]
     },
@@ -134,9 +136,13 @@ export const projects = [
         id: 2, 
         projectName: "FitnessApp",
         projectLink: "",
+        projectDescription: "",
+        projectImage: "",
         projectSkill: [
             {
-                
+                id: 3,
+                skillName: "Redux",
+                Icon: <SiRedux size="50"/>
             }
         ]
     }
