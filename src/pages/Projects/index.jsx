@@ -3,7 +3,7 @@ import { projects } from '../../data'
 
 export const  ProjectPage  = () => {
   return (
-    <div className="border-green-300 flex-col justify-center items-center flex w-full h-full">
+    <div id='projects' className="border-green-300 flex-col justify-center items-center flex w-full h-full">
        <h1> TITLE </h1>  
        <div className='border-2 border-rose-600 flex flex-row'>
         <div>
@@ -27,7 +27,6 @@ export const  ProjectPage  = () => {
             </section>
           ))}
         </div>
-        
        </div>
     </div>
   )
