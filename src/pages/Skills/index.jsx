@@ -4,7 +4,7 @@ import { flexBetweeen } from '@/data'
 export const SkillPage = () => {
   
   return (
-    <div className={`bg-black flex-col gap-2 ${flexBetweeen} w-full h-full`}>
+    <div id='skills' className={`bg-black flex-col gap-2 ${flexBetweeen} w-full h-full`}>
       <h2 className='text-xl '>TITLE</h2>
       <div className="w-5/6 p-2 flex flex-col gap-4 ">
         <section className='flex justify-between gap-2 flex-row'>

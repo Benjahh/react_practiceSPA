@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from './link'
-import {GiHamburgerMenu} from "react-icons/gi"
+
+import { HamburgerMenu } from '../HamburgerMenu'
 
 export const Navbar = () => {
   return (
@@ -11,7 +12,8 @@ export const Navbar = () => {
         </div>
         <div className='flex flex-row justify-center items-center gap-6'> 
           <Link/>
-          <GiHamburgerMenu size="25"/>
+          
+          <HamburgerMenu/>
         </div>
       </div>
 
