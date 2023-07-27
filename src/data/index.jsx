@@ -128,9 +128,19 @@ export const projects = [
         projectImage: "",
         projectSkill: [
             {
+                id: 1,
+                skillName: "ReactJS",
+                Icon:  <SiReact size=""/> 
+            },
+            {
+                id: 2,
+                skillName: "Tailwindcss",
+                Icon: <SiTailwindcss size=""/>
+            },
+            {
                 id: 3,
-                skillName: "Redux",
-                Icon: <SiRedux size="50"/>
+                skillName: "TypeScript",
+                Icon: <SiTypescript size=""/>
             }
     ]
     },
@@ -142,9 +152,19 @@ export const projects = [
         projectImage: "",
         projectSkill: [
             {
+                id: 1,
+                skillName: "ReactJS",
+                Icon:  <SiReact size=""/> 
+            },
+            {
+                id: 2,
+                skillName: "Tailwindcss",
+                Icon: <SiTailwindcss size=""/>
+            },
+            {
                 id: 3,
-                skillName: "Redux",
-                Icon: <SiRedux size="50"/>
+                skillName: "TypeScript",
+                Icon: <SiTypescript size=""/>
             }
         ]
     }

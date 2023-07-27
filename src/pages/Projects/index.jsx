@@ -6,10 +6,10 @@ export const  ProjectPage  = () => {
     <div id='projects' className="border-green-300 flex-col justify-center items-center flex w-full h-full">
        <h1> TITLE </h1>  
    
-        <section className='border-2 border-rose-600 h-auto flex flex-row '>
+        <section className='border-2 border-rose-600 h-auto grid grid-cols-2 gap-8 '>
           {projects.map(({projectLink, projectImage, projectName, projectDescription, projectSkill, id})=>(
             <div key={id} className='gap-4 border-2 h-auto border-teal-500'>
-              <div className='h-1/2'>
+              <div className='border-2 border-pink-400'>
                 <img src={projectImage} alt='testing image'></img>
               </div>
               <div>
@@ -21,10 +21,10 @@ export const  ProjectPage  = () => {
                     {Icon}    
                   </div>
                 ))}
-                <title className=''>{projectName}</title>
+                <title className='border-2 border-blue-300 '>{projectName}</title>
                 <details className=''>{projectDescription}</details>
               </div>
-              <div className=''>
+              <div className='border-2 border-b-red-950'>
                 <a src={projectLink} >{projectLink}</a>
               </div>
             </div>
