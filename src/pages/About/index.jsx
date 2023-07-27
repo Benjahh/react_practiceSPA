@@ -13,6 +13,13 @@ export const AboutPage = () => {
           <p>My approach to application development is based on several core principles. I prioritize creating <span className='font-extrabold'>modern</span> user interfaces that are visually <span className='font-extrabold'>appealing</span> and easy to use. Additionally, I am committed to ensuring that every application I build performs <span className='font-extrabold'>optimally </span>and is <span className='font-extrabold'>user-friendly</span>.</p>
           <p>I continuously improve my skills and knowledge by tackling complex challenges and collaborating with others to find creative solutions.</p>*/}
         </div>
+        <a 
+        download=""
+        src=""
+        className={`${flexBetweeen} flex-row rounded-md bg-orange-300 text-white`} 
+        >
+          Resume
+        </a>
      </section> 
     </div>
   )
