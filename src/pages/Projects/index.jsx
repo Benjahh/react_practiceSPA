@@ -39,12 +39,12 @@ export const  ProjectPage  = () => {
               <section className='border-2 border-b-red-950'>
                 <a 
                 href={projectLink} 
-                className='bg-orange-500 p-1 rounded-sm'>
+                className='bg-orange-500 p-1 rounded-sm gap-3'>
                   Live <SiLinktree/>
                 </a>
                 <a 
                 href={projectRepo}
-                className='bg-'>
+                className='bg-orange-500 p-1 rounded-sm gap-3'>
                   Source <SiGithub/>
                 </a>
               </section>
