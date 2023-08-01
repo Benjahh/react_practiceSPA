@@ -123,8 +123,9 @@ export const projects = [
     {
         id: 1,
         projectName: "SocialApp",
-        projectLink : "",
-        projectDescription: "",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://facebook.com",
+        projectDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores debitis vero, illum provident, possimus aspernatur accusamus recusandae, iste velit eius tempore voluptatem ab repudiandae necessitatibus sunt eum quidem dolorem!",
         projectImage: "",
         projectSkill: [
             {
@@ -147,8 +148,9 @@ export const projects = [
     {
         id: 2, 
         projectName: "FitnessApp",
-        projectLink: "",
-        projectDescription: "",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://google.com",
+        projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
         projectImage: "",
         projectSkill: [
             {
@@ -167,5 +169,55 @@ export const projects = [
                 Icon: <SiTypescript size=""/>
             }
         ]
-    }
+    },
+    {
+        id: 3, 
+        projectName: "FILLER",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://google.com",
+        projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
+        projectImage: "",
+        projectSkill: [
+            {
+                id: 1,
+                skillName: "ReactJS",
+                Icon:  <SiReact size=""/> 
+            },
+            {
+                id: 2,
+                skillName: "Tailwindcss",
+                Icon: <SiTailwindcss size=""/>
+            },
+            {
+                id: 3,
+                skillName: "TypeScript",
+                Icon: <SiTypescript size=""/>
+            }
+        ]
+    },
+    {
+        id: 4, 
+        projectName: "FILLER",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://google.com",
+        projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
+        projectImage: "",
+        projectSkill: [
+            {
+                id: 1,
+                skillName: "ReactJS",
+                Icon:  <SiReact size=""/> 
+            },
+            {
+                id: 2,
+                skillName: "Tailwindcss",
+                Icon: <SiTailwindcss size=""/>
+            },
+            {
+                id: 3,
+                skillName: "TypeScript",
+                Icon: <SiTypescript size=""/>
+            }
+        ]
+    },
 ]

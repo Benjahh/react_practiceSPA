@@ -16,11 +16,11 @@ export const HamburgerMenu = () => {
                 <div className={`${flexBetweeen} absolute right-0 w-[300px] bg-yellow-300 border-rose-900 border-2`}>
                     <Link className={`${flexBetweeen} text-red-500 flex-col`}/>
                     <a 
-                    src="" 
-                    download=""
-                    className='rounded-md p-2 bg-black text-white hover:bg-blue-400 hover:cursor-pointer '
+                        src="" 
+                        download=""
+                        className='rounded-md p-2 bg-black text-white hover:bg-blue-400 hover:cursor-pointer '
                     >
-                    Resume
+                        Resume
                     </a>
 
                 </div>
