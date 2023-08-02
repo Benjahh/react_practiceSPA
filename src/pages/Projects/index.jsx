@@ -36,15 +36,15 @@ export const  ProjectPage  = () => {
 
               </div>
               
-              <section className='border-2 border-b-red-950'>
+              <section className='border-2 flex flex-row gap-2 p-2 border-b-red-950'>
                 <a 
                 href={projectLink} 
-                className='bg-orange-500 p-1 rounded-sm gap-3'>
+                className={` ${flexBetweeen} w-20 flex-row hover:bg-red-400 bg-orange-500 p-1 rounded-sm gap-1`}>
                   Live <SiLinktree/>
                 </a>
                 <a 
                 href={projectRepo}
-                className='bg-orange-500 p-1 rounded-sm gap-3'>
+                className={`${flexBetweeen} w-20 flex-row hover:bg-red-400 bg-orange-500 p-1 rounded-sm gap-1`}>
                   Source <SiGithub/>
                 </a>
               </section>
