@@ -7,20 +7,21 @@ export const HamburgerMenu = () => {
     const [isMenu, setIsMenu] = useState(false)
   return (
     <div>
-        <button onClick={() => setIsMenu(!isMenu)} 
+        <button 
+        onClick={() => setIsMenu(!isMenu)} 
         className={`${flexBetweeen}`}>
-        <GiHamburgerMenu size="25"/>
+            <GiHamburgerMenu size="25"/>
         </button>
-        <section>
+        <section className='h-auto w-auto border-2 border-green-600'>
             {isMenu && (
-                <div className={`${flexBetweeen} absolute right-0 w-[300px] bg-yellow-300 border-rose-900 border-2`}>
-                    <Link className={`${flexBetweeen} text-red-500 flex-col`}/>
+                <div className={`${flexBetweeen} absolute right-0 w-[300px] h-screen bg-yellow-300 items-center justify-between flex-col p-2 gap-6 flex border-rose-900 border-2`}>
+                    <Link className={`${flexBetweeen} text-lg text-red-500 flex-col`}/>
                     <a 
                         src="" 
-                        download=""
+                        download="ht"
                         className='rounded-md p-2 bg-black text-white hover:bg-blue-400 hover:cursor-pointer '
                     >
-                        Resume
+                        Resume 
                     </a>
 
                 </div>
