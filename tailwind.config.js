@@ -7,10 +7,14 @@ export default {
   theme: {
     extend: {
       colors:{
-        firstColor: "#4B0082",
-        secondColor: "#8B008B",
-        thirdColor: "#DF00FF",
-        fourthColor: "#4E2A84"
+        dimPrimaryColor: "#080808",
+        whiteColor: "#f8f8f8",
+        blueColor: "#6492c7",
+        purpleColor: "5e3ad8",
+        magentaColor: "#ff1e7a",
+        redColor: "#f5382b",
+        orangeColor: "#FF5337",
+       dimSecondaryColor: "#1d1e1f"
         
       }
     },

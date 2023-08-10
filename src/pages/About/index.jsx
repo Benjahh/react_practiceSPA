@@ -3,7 +3,7 @@ import { flexBetweeen } from '@/data'
 
 export const AboutPage = () => {
   return (
-    <div id='about' className=" bg-black justify-center items-center flex w-full h-full">
+    <div id='about' className=" bg-dimSecondaryColor justify-center items-center flex w-full h-full">
       <section className={`${flexBetweeen} w-5/6 flex-col gap-8`}>
         <h1 className={`${flexBetweeen} border-2 border-green-500`}>TITLE</h1>
         <div className={`${flexBetweeen} flex-col text-lg text-left gap-6 text-white`}>

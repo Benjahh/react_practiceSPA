@@ -5,7 +5,7 @@ import { SiLinktree } from 'react-icons/si'
 
 export const  ProjectPage  = () => {
   return (
-    <div id='projects' className={`${flexBetweeen} h-auto border-green-300 p-8 flex-col`}>
+    <div id='projects' className={`${flexBetweeen} h-auto bg-dimSecondaryColor border-green-300 p-8 flex-col`}>
         <h1> TITLE </h1>  
 
         <section className='border-2 border-rose-600 w-5/6 grid grid-cols-2 gap-8 '>
