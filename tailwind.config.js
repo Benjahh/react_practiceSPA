@@ -10,7 +10,7 @@ export default {
         dimPrimaryColor: "#080808",
         whiteColor: "#f8f8f8",
         blueColor: "#6492c7",
-        purpleColor: "5e3ad8",
+        purpleColor: "#5e3ad8",
         magentaColor: "#ff1e7a",
         redColor: "#f5382b",
         orangeColor: "#FF5337",

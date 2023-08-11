@@ -14,14 +14,26 @@ export const Navbar = () => {
             Favicon
           </div>
           <div className='flex flex-row gap-6 justify-center items-center'> 
-            <Link className={`${flexBetweeen} gap-6`}/>
+            <Link className={`${flexBetweeen} text-white gap-6`}/>
+           <div  className='rounded-2xl p-2 bg-dimSecondaryColor border-[1px] gap-2 flex border-blueColor text-white'>
             <a 
-              src="" 
-              download=""
-              className='rounded-md p-2 bg-black text-white hover:bg-blue-400 hover:cursor-pointer '
-            >
-            Resume
-            </a>
+                src="" 
+                download=""
+                className='hover:text-blueColor hover:cursor-pointer '
+               
+              >
+              Resume
+              </a>
+              
+              <a
+                src="https://github.com/Benjahh"
+                className=' hover:text-blueColor hover:cursor-pointer '
+              >
+              Github
+
+              </a>
+           </div>
+            
           </div>
         </div>
       </section>
