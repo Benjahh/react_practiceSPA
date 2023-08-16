@@ -133,17 +133,20 @@ export const projects = [
             {
                 id: 1,
                 skillName: "ReactJS",
-                Icon:  <SiReact size=""/> 
+                Icon:  <SiReact size=""/>,
+                color: "#ff1e7a"
             },
             {
                 id: 2,
                 skillName: "Tailwindcss",
-                Icon: <SiTailwindcss size=""/>
+                Icon: <SiTailwindcss size=""/>,
+                color: "#FF5337"
             },
             {
                 id: 3,
                 skillName: "TypeScript",
-                Icon: <SiTypescript size=""/>
+                Icon: <SiTypescript size=""/>,
+                color: "#5e3ad8"
             }
     ]
     },

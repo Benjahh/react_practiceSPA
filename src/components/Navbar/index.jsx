@@ -15,25 +15,23 @@ export const Navbar = () => {
           </div>
           <div className='flex flex-row gap-6 justify-center items-center'> 
             <Link className={`${flexBetweeen} text-white gap-6`}/>
-           <div  className='rounded-2xl p-2 bg-dimSecondaryColor border-[1px] gap-2 flex border-blueColor text-white'>
-            <a 
+            <div  className='rounded-2xl p-2 bg-dimSecondaryColor border-[2px] gap-2 flex  border-blueColor text-white'>
+              <a 
                 src="" 
                 download=""
                 className='hover:text-blueColor hover:cursor-pointer '
-               
               >
-              Resume
+                Resume
               </a>
-              
+                
               <a
                 src="https://github.com/Benjahh"
                 className=' hover:text-blueColor hover:cursor-pointer '
               >
-              Github
+                Github
 
               </a>
-           </div>
-            
+            </div>  
           </div>
         </div>
       </section>
