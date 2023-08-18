@@ -8,13 +8,14 @@ export default {
     extend: {
       colors:{
         dimPrimaryColor: "#080808",
-        whiteColor: "#f8f8f8",
+        whiteColor: "#3a3a3a",
         blueColor: "#6492c7",
         purpleColor: "#5e3ad8",
         magentaColor: "#ff1e7a",
         redColor: "#f5382b",
         orangeColor: "#FF5337",
-       dimSecondaryColor: "#1d1e1f"
+        greyColor: "#8A8F98",
+        dimSecondaryColor: "#1d1e1f"
         
       }
     },

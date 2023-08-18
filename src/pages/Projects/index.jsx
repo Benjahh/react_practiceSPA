@@ -7,7 +7,7 @@ export const  ProjectPage  = () => {
   return (
     <div id='projects' className={`${flexBetweeen} h-auto bg-dimSecondaryColor border-green-300 p-8 flex-col`}>
         <div className='w-5/6 flex flex-col gap-4'>
-        <h1 className='text-2xl text-blueColor font-bold self-center '> PROJECTS </h1>
+        <h1 className='text-2xl text-white font-bold self-center '> PROJECTS </h1>
           <section className='border-2 border-rose-600  grid grid-cols-2 gap-4 '>
             {projects.map(({projectLink, projectImage,projectRepo, projectName, projectDescription, projectSkill, id})=>(
               <div key={id} className='gap-4 flex h-auto flex-col border-2 border-teal-500'>
