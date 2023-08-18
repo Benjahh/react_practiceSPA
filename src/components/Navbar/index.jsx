@@ -6,23 +6,32 @@ import { flexBetweeen } from '../../data'
 
 export const Navbar = () => {
   return (
-    <nav 
-   
-    className="fixed top-0 bg-pink-300 z-30 w-full py-6">
+    <nav className="fixed top-0 backdrop-blur-md z-30 w-full py-6">
+
       <section>
         <div className=" items-center w-5/6 hidden md:flex  justify-between flex-row mx-auto">
           <div>
             Favicon
           </div>
           <div className='flex flex-row gap-6 justify-center items-center'> 
-            <Link className={`${flexBetweeen} gap-6`}/>
-            <a 
-            src="" 
-            download=""
-            className='rounded-md p-2 bg-black text-white hover:bg-blue-400 hover:cursor-pointer '
-            >
-            Resume
-            </a>
+            <Link className={`${flexBetweeen} text-white gap-6`}/>
+            <div  className='rounded-2xl p-2 bg-dimSecondaryColor border-[2px] gap-2 flex  border-blueColor text-white'>
+              <a 
+                src="" 
+                download=""
+                className='hover:text-blueColor hover:cursor-pointer '
+              >
+                Resume
+              </a>
+                
+              <a
+                src="https://github.com/Benjahh"
+                className=' hover:text-blueColor hover:cursor-pointer '
+              >
+                Github
+
+              </a>
+            </div>  
           </div>
         </div>
       </section>
@@ -37,6 +46,7 @@ export const Navbar = () => {
           <HamburgerMenu/>
         </div>
       </section>
-     </nav>
+
+    </nav>
   )
 }

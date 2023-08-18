@@ -14,6 +14,8 @@ import {
 
 } from "react-icons/si"
 
+import testImage from "../assets/Images/test.png"
+
 export const flexBetweeen = "flex justify-center items-center"
 
 export const frontEndTech = [
@@ -123,33 +125,38 @@ export const projects = [
     {
         id: 1,
         projectName: "SocialApp",
-        projectLink : "",
-        projectDescription: "",
-        projectImage: "",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://facebook.com",
+        projectDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores debitis vero, illum provident, possimus aspernatur accusamus recusandae, iste velit eius tempore voluptatem ab repudiandae necessitatibus sunt eum quidem dolorem!",
+        projectImage: testImage,
         projectSkill: [
             {
                 id: 1,
                 skillName: "ReactJS",
-                Icon:  <SiReact size=""/> 
+                Icon:  <SiReact size=""/>,
+                color: "#ff1e7a"
             },
             {
                 id: 2,
                 skillName: "Tailwindcss",
-                Icon: <SiTailwindcss size=""/>
+                Icon: <SiTailwindcss size=""/>,
+                color: "#FF5337"
             },
             {
                 id: 3,
                 skillName: "TypeScript",
-                Icon: <SiTypescript size=""/>
+                Icon: <SiTypescript size=""/>,
+                color: "#5e3ad8"
             }
     ]
     },
     {
         id: 2, 
         projectName: "FitnessApp",
-        projectLink: "",
-        projectDescription: "",
-        projectImage: "",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://google.com",
+        projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
+        projectImage: testImage,
         projectSkill: [
             {
                 id: 1,
@@ -167,5 +174,55 @@ export const projects = [
                 Icon: <SiTypescript size=""/>
             }
         ]
-    }
+    },
+    {
+        id: 3, 
+        projectName: "FILLER",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://google.com",
+        projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
+        projectImage: testImage,
+        projectSkill: [
+            {
+                id: 1,
+                skillName: "ReactJS",
+                Icon:  <SiReact size=""/> 
+            },
+            {
+                id: 2,
+                skillName: "Tailwindcss",
+                Icon: <SiTailwindcss size=""/>
+            },
+            {
+                id: 3,
+                skillName: "TypeScript",
+                Icon: <SiTypescript size=""/>
+            }
+        ]
+    },
+    {
+        id: 4, 
+        projectName: "FILLER",
+        projectRepo: "https://github.com/Benjahh/benjahh.github.io",
+        projectLink: "https://google.com",
+        projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
+        projectImage: testImage,
+        projectSkill: [
+            {
+                id: 1,
+                skillName: "ReactJS",
+                Icon:  <SiReact size=""/> 
+            },
+            {
+                id: 2,
+                skillName: "Tailwindcss",
+                Icon: <SiTailwindcss size=""/>
+            },
+            {
+                id: 3,
+                skillName: "TypeScript",
+                Icon: <SiTypescript size=""/>
+            }
+        ]
+    },
 ]
