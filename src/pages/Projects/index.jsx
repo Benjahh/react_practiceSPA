@@ -8,11 +8,11 @@ export const  ProjectPage  = () => {
     <div id='projects' className={`${flexBetweeen} h-auto bg-dimSecondaryColor border-green-300 p-8 flex-col`}>
         <div className='w-5/6 flex flex-col gap-4'>
         <h1 className='text-2xl text-white font-bold self-center '> PROJECTS </h1>
-          <section className='border-2 border-rose-600  grid grid-cols-2 gap-4 '>
+          <section className='border-2 border-rose-600  flex-col flex gap-4 '>
             {projects.map(({projectLink, projectImage,projectRepo, projectName, projectDescription, projectSkill, id})=>(
-              <div key={id} className='gap-4 flex h-auto flex-col border-2 border-teal-500'>
+              <div key={id} className='gap-4 flex h-auto flex-row border-2 border-teal-500'>
                 
-                <div className={`flex border-4 h-auto border-blue-700  flex-col`}>
+                <div className={`flex border-4 h-auto border-blue-700  flex-row`}>
                   
                   <img 
                   className='border-2 h-1/2 border-pink-400' 
@@ -31,7 +31,7 @@ export const  ProjectPage  = () => {
                     <section className={`${flexBetweeen} flex-row gap-6`}> 
                       {projectSkill.map(({id, skillName, color, Icon})=>(
                       <div 
-                      className={` bg-dimPrimaryColor p-1 ${flexBetweeen}`}
+                      className={` bg-dimPrimaryColor rounded-xl  p-[5px] ${flexBetweeen}`}
                       style={{
                         color: color
                       }}
