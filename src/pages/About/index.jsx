@@ -6,7 +6,7 @@ export const AboutPage = () => {
     <div id='about' className=" bg-dimSecondaryColor justify-center items-center flex w-full h-full">
       <section className={`${flexBetweeen} w-5/6 flex-col gap-8`}>
         <h1 className={`${flexBetweeen} font-bold text-2xl text-blueColor`}>ABOUT ME</h1>
-        <div className={`flex flex-col text-md text-left w-3/4 gap-6 text-whiteColor`}>
+        <div className={`flex flex-col text-xl text-left w-2/4 gap-6 text-whiteColor`}>
           <p>Hi, my name is Lucas. I'm a <span className='font-extrabold text-magentaColor'>Computer Engineering</span> student with a passion for <span className='font-extrabold'>Software Engineering</span>.</p>
           <p>I'm currently pursuing <span className='font-extrabold text-magentaColor'>Computer Engineering</span> at <span className='font-extrabold'>UA </span> (Universidad Americana), located in Asuncion, Paraguay.</p>
           <p>I'm a full-stack developer, specializing in the <span className='font-extrabold text-orangeColor'>MERN</span> stack (MongoDB, Express, React, and Node), and I'm keen on building high-quality, scalable web applications.</p>
