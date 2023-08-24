@@ -5,7 +5,8 @@ export const SkillPage = () => {
   
   return (
     <div id='skills' className={`bg-dimPrimaryColor flex-col gap-2 ${flexBetweeen} w-full h-full`}>
-      <h2 className='text-2xl font-bold text-blueColor'>TECH STACK</h2>
+      <h1 className='text-4xl font-bold text-white'>TECH STACK</h1>
+      <h2 className='text-2xl text-greyColor'>A list of many important technologies that im familiar with.</h2>
       <div className="w-5/6 p-2 flex flex-col gap-4 ">
         
         <div className='flex justify-between gap-2 flex-row'>

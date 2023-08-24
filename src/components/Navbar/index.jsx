@@ -6,7 +6,7 @@ import { flexBetweeen } from '../../data'
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 backdrop-blur-md z-30 w-full py-6">
+    <nav className="fixed top-0 backdrop-blur-md border-whiteColor border-b-[1px] z-30 w-full py-3">
 
       <section>
         <div className=" items-center w-5/6 hidden md:flex  justify-between flex-row mx-auto">
@@ -15,7 +15,7 @@ export const Navbar = () => {
           </div>
           <div className='flex flex-row gap-6 justify-center items-center'> 
             <Link className={`${flexBetweeen} text-white gap-6`}/>
-            <div  className='rounded-2xl p-2 bg-dimSecondaryColor border-[2px] gap-2 flex  border-blueColor text-white'>
+            <div  className='rounded-3xl p-2 bg-dimSecondaryColor border-[1.6px] gap-2 flex  border-whiteColor hover:border-blueColor text-white'>
               <a 
                 src="" 
                 download=""
