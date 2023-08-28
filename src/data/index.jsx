@@ -125,6 +125,7 @@ export const projects = [
     {
         id: 1,
         projectName: "SocialApp",
+        projectType: "PRACTICE PROJECT",
         projectRepo: "https://github.com/Benjahh/benjahh.github.io",
         projectLink: "https://facebook.com",
         projectDescription: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores debitis vero, illum provident, possimus aspernatur accusamus recusandae, iste velit eius tempore voluptatem ab repudiandae necessitatibus sunt eum quidem dolorem!",
@@ -154,6 +155,7 @@ export const projects = [
     {
         id: 2, 
         projectName: "FitnessApp",
+        projectType: "PRACTICE PROJECT",
         projectRepo: "https://github.com/Benjahh/benjahh.github.io",
         projectLink: "https://google.com",
         projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",
@@ -179,6 +181,7 @@ export const projects = [
     },
     {
         id: 3, 
+        projectType: "PRACTICE PROJECT",
         projectName: "FILLER",
         projectRepo: "https://github.com/Benjahh/benjahh.github.io",
         projectLink: "https://google.com",
@@ -206,6 +209,7 @@ export const projects = [
     {
         id: 4, 
         projectName: "FILLER",
+        projectType: "PRACTICE PROJECT",
         projectRepo: "https://github.com/Benjahh/benjahh.github.io",
         projectLink: "https://google.com",
         projectDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni quam molestiae culpa unde sequi cum nesciunt repellat, similique quia atque eaque suscipit nam possimus quos, labore ipsam velit laboriosam?",

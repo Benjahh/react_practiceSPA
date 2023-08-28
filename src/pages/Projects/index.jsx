@@ -5,27 +5,29 @@ import { SiLinktree } from 'react-icons/si'
 
 export const  ProjectPage  = () => {
   return (
-    <div id='projects' className={`${flexBetweeen} h-auto bg-dimSecondaryColor border-green-300 p-8 flex-col`}>
+    <div id='projects' className={`${flexBetweeen} h-auto bg-dimSecondaryColor  p-8 flex-col`}>
         <div className='w-5/6 flex flex-col gap-4'>
         <h1 className='text-2xl text-white font-bold self-center '> PROJECTS </h1>
-          <section className='border-2 border-rose-600  flex-col flex gap-4 '>
-            {projects.map(({projectLink, projectImage,projectRepo, reverse, projectName, projectDescription, projectSkill, id})=>(
-              <div key={id} className={`gap-4 ${flexBetweeen} border-2 border-teal-500`}>
+          <section className='flex-col flex gap-4 '>
+            {projects.map(({projectLink, projectImage,projectRepo, projectType, reverse, projectName, projectDescription, projectSkill, id})=>(
+              <div key={id} className={`gap-4 ${flexBetweeen}`}>
                 
     
-                <div className={`flex border-4 ${reverse ? "border-red-700 flex-row-reverse" : " flex-row border-blue-700"} w-1/2 self-center `}>
+                <div className={`flex ${reverse ? "flex-row-reverse" : " flex-row"}  self-center `}>
+                  
                   {/*Image section*/}
                   <img 
-                    className='border-2 w-80 border-pink-400' 
+                    className='rounded-xl w-80' 
                     src={projectImage}
                     alt='testing image'
                   />
 
-                  <div className={`flex flex-col gap-4 p-2 items border-4 border-yellow-400`}>
+                  <div className={`flex flex-col gap-4 p-2 items`}>
                 
-                    <section className={`${flexBetweeen}  flex-col gap-2`}>
-                      <h2 className={`border-2 border-blue-300  ${reverse ? "self-start" : "self-end"} `}>{projectName}</h2>
-                      <p className={`${reverse ? "text-left" : "text-right"}`}>{projectDescription}</p>
+                    <section className={`${flexBetweeen} flex-col gap-2`}>
+                      <h2 className={`${reverse ? "self-start" : "self-end"}`}>{projectType}</h2>
+                      <h2 className={`${reverse ? "self-start" : "self-end"} `}>{projectName}</h2>
+                      <p className={`${reverse ? "text-left" : "text-right"} p-2 rounded-lg bg-dimPrimaryColor`}>{projectDescription}</p>
                     </section>
 
                     <section className={`${reverse ? "self-start" : "self-end"} items-center flex flex-row gap-6`}> 
@@ -42,7 +44,7 @@ export const  ProjectPage  = () => {
                       ))}
                     </section>
 
-                    <section className={`border-2 flex flex-row gap-2 p-2 ${reverse ? "self-start" : "self-end"} border-red-950`}>
+                    <section className={`flex flex-row gap-2 p-2 ${reverse ? "self-start" : "self-end"} `}>
                       <a 
                       href={projectLink} 
                       className={` ${flexBetweeen} w-20 flex-row hover:bg-red-400 bg-orange-500 p-1 rounded-sm gap-1`}>
@@ -54,7 +56,6 @@ export const  ProjectPage  = () => {
                         Source <SiGithub/>
                       </a>
                   </section>
-
                   </div>
                 </div>
               </div>
