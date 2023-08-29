@@ -14,7 +14,7 @@ import {
 
 } from "react-icons/si"
 
-import testImage from "../assets/Images/test.png"
+import testImage from "../assets/Images/test.jpg"
 
 export const flexBetweeen = "flex justify-center items-center"
 
