@@ -134,19 +134,20 @@ export const projects = [
         projectSkill: [
             {
                 id: 1,
-                skillName: "ReactJS",
+                skillName: "REACTJS",
                 Icon:  <SiReact size=""/>,
-                color: "#ff1e7a"
+                colorOne: "#ff1e7a",
+                colorTwo: "#630c30"
             },
             {
                 id: 2,
-                skillName: "Tailwindcss",
+                skillName: "TAILWINDCSS",
                 Icon: <SiTailwindcss size=""/>,
                 color: "#FF5337"
             },
             {
                 id: 3,
-                skillName: "TypeScript",
+                skillName: "TYPESCRIPT",
                 Icon: <SiTypescript size=""/>,
                 color: "#5e3ad8"
             }
