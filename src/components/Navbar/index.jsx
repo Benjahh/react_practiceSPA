@@ -14,7 +14,7 @@ export const Navbar = () => {
             Favicon
           </div>
           <div className='flex flex-row gap-6 justify-center items-center'> 
-            <Link className={`${flexBetweeen} text-white gap-6`}/>
+            <Link className={`${flexBetweeen} text-white gap-6 `}/>
             <div  className='rounded-3xl p-2 bg-dimSecondaryColor border-[1.6px] gap-2 flex  border-whiteColor hover:border-blueColor text-white'>
               <a 
                 src="" 

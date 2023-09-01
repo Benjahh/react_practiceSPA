@@ -136,8 +136,7 @@ export const projects = [
                 id: 1,
                 skillName: "REACTJS",
                 Icon:  <SiReact size=""/>,
-                colorOne: "#ff1e7a",
-                colorTwo: "#630c30"
+                color: "#ff1e7a",
             },
             {
                 id: 2,
