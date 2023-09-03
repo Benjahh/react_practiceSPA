@@ -10,7 +10,7 @@ export const  ProjectPage  = () => {
         <div className={`w-5/6 flex flex-col gap-2`}>
         <h1 className='text-4xl text-white font-bold self-center'> PROJECTS </h1>
         <h2 className='text-3xl text-greyColor self-center'> Projects ive made sharpening my skills</h2>
-          <div className='flex-col flex gap-24 mt-8 '>
+          <div className='flex-col flex gap-24 mt-8 border-2  '>
             {projects.map(({projectLink, projectImage,projectRepo, projectType, reverse, projectName, projectDescription, projectSkill, id})=>(
               <div key={id} className={` relative flex items-center ${reverse ? "flex-row-reverse" : " flex-row"}`}>
                 
