@@ -1,6 +1,6 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { FadeInComponent } from '../FramerComponents'
+
 
 export const Link = ({className}) => {
   return (
@@ -29,7 +29,7 @@ export const Link = ({className}) => {
         >
           Projects
         </AnchorLink>
-        <FadeInComponent></FadeInComponent>
+        
     </div>
   )
 }

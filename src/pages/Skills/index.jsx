@@ -1,7 +1,7 @@
 import React from 'react'
 import { frontEndTech, backEndTech, otherTech } from '@/data' 
 import { flexBetweeen } from '@/data'
-import { FadeInComponent } from '../../components/FramerComponents'
+import  FadeInOnScroll from '../../components/FramerComponents'
 export const SkillPage = () => {
   
   return (
@@ -27,25 +27,24 @@ export const SkillPage = () => {
             </div>
           </section>
 
-          <FadeInComponent/>
 
-          <section id='backend' className={`rounded-md h-auto flex flex-col`}>
-              <div  className='flex flex-col justify-end self-end h-full '>
-                <h2 className={`text-white text-xl  ${flexBetweeen}`}>Back-End</h2>
-                  {backEndTech.map((group) => (
-                    <div key={group.id} className='gap-4 p-2  flex flex-row-reverse'>
-                      {group.techs.map(({id, skillName, Icon}) => (
-                        <div key={id} className='flex flex-col w-28 h-28 border-2 border-purpleColor rounded-3xl items-center gap-2 bg-dimSecondaryColor p-4'>
-                          <icon className="rounded-md text-purpleColor">{Icon}</icon> 
-                          <h3 className='text-white'>{skillName}</h3>
-                        </div>
-                      ))}
-                    </div>
-                  ))}
-                </div>
-          </section>
+            <FadeInOnScroll id='backend' className={`rounded-md h-auto flex flex-col`}>
+                <div  className='flex flex-col justify-end self-end h-full '>
+                  <h2 className={`text-white text-xl  ${flexBetweeen}`}>Back-End</h2>
+                    {backEndTech.map((group) => (
+                      <div key={group.id} className='gap-4 p-2  flex flex-row-reverse'>
+                        {group.techs.map(({id, skillName, Icon}) => (
+                          <div key={id} className='flex flex-col w-28 h-28 border-2 border-purpleColor rounded-3xl items-center gap-2 bg-dimSecondaryColor p-4'>
+                            <icon className="rounded-md text-purpleColor">{Icon}</icon> 
+                            <h3 className='text-white'>{skillName}</h3>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+          </FadeInOnScroll>
         </div >
-
+  
           <section id='other' className='rounded-md'> 
           <h2 className={`text-white text-xl p-2 ${flexBetweeen}`}>Additional</h2>
             <div className={`flex-row  ${flexBetweeen} gap-6`}>
