@@ -1,6 +1,7 @@
 import React from 'react'
 import { frontEndTech, backEndTech, otherTech } from '@/data' 
 import { flexBetweeen } from '@/data'
+import { FadeInComponent } from '../../components/FramerComponents'
 export const SkillPage = () => {
   
   return (
@@ -25,6 +26,8 @@ export const SkillPage = () => {
                 ))}
             </div>
           </section>
+
+          <FadeInComponent/>
 
           <section id='backend' className={`rounded-md h-auto flex flex-col`}>
               <div  className='flex flex-col justify-end self-end h-full '>
