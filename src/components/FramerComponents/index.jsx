@@ -1,34 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import { useIntersectionObserver } from '../customHooks';
 
     const FadeInOnScroll = ({ children }) => {
     const ref = useRef();
     const controls = useAnimation();
+    useIntersectionObserver(ref, controls)
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                controls.start('visible');
-            }
-            });
-        },
-        {
-            threshold: 0.5,
-        }
-        );
-
-        if (ref.current) {
-        observer.observe(ref.current);
-        }
-
-        return () => {
-        if (ref.current) {
-            observer.unobserve(ref.current);
-        }
-        };
-    }, [controls]);
 
     const fadeInVariants = {
         hidden: { opacity: 0 },

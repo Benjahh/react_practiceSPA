@@ -11,7 +11,7 @@ export const SkillPage = () => {
       <div className="w-5/6 p-2 flex flex-col gap-4 ">
         
         <div className='flex justify-between gap-2 flex-row'>
-          <section id='frontend' className=' rounded-md'>
+          <FadeInOnScroll id='frontend' className=' rounded-md'>
             <h2 className={`flex-col text-xl ${flexBetweeen} text-white`}>Front-End</h2>
             <div className='flex flex-col'>
                 {frontEndTech.map((group) => (
@@ -25,7 +25,7 @@ export const SkillPage = () => {
                   </div>
                 ))}
             </div>
-          </section>
+          </FadeInOnScroll>
 
 
             <FadeInOnScroll id='backend' className={`rounded-md h-auto flex flex-col`}>
@@ -45,7 +45,7 @@ export const SkillPage = () => {
           </FadeInOnScroll>
         </div >
   
-          <section id='other' className='rounded-md'> 
+          <FadeInOnScroll id='other' className='rounded-md'> 
           <h2 className={`text-white text-xl p-2 ${flexBetweeen}`}>Additional</h2>
             <div className={`flex-row  ${flexBetweeen} gap-6`}>
               {otherTech.map(({skillName, id, Icon})=>(
@@ -55,7 +55,7 @@ export const SkillPage = () => {
                 </div>
               ))}
             </div>
-          </section>
+          </FadeInOnScroll>
 
       </div>
     </div>
