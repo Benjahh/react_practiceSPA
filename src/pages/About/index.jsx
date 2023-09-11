@@ -1,5 +1,6 @@
 import React from 'react'
 import { flexBetweeen } from '@/data'
+import { SlideInOnScroll } from '../../components/FramerComponents'
 
 export const AboutPage = () => {
   return (
@@ -24,9 +25,12 @@ export const AboutPage = () => {
         </section> 
 
         <section className='flex flex-col gap-2'>
-          <div className='bg-dimPrimaryColor p-6 rounded-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta ipsa neque. Rerum dicta eaque eius assumenda. Itaque voluptatum commodi dignissimos alias nemo consequuntur quis ipsum cupiditate! Totam, quia aliquam.</div>
-          <div className='bg-dimPrimaryColor p-6 rounded-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta ipsa neque. Rerum dicta eaque eius assumenda. Itaque voluptatum commodi dignissimos alias nemo consequuntur quis ipsum cupiditate! Totam, quia aliquam.</div>
-          <div className='bg-dimPrimaryColor p-6 rounded-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta ipsa neque. Rerum dicta eaque eius assumenda. Itaque voluptatum commodi dignissimos alias nemo consequuntur quis ipsum cupiditate! Totam, quia aliquam.</div>
+          <SlideInOnScroll className='bg-dimPrimaryColor p-6 rounded-xl'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta ipsa neque. Rerum dicta eaque eius assumenda. Itaque voluptatum commodi dignissimos alias nemo consequuntur quis ipsum cupiditate! Totam, quia aliquam.
+          </SlideInOnScroll>
+          <SlideInOnScroll className='bg-dimPrimaryColor p-6 rounded-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta ipsa neque. Rerum dicta eaque eius assumenda. Itaque voluptatum commodi dignissimos alias nemo consequuntur quis ipsum cupiditate! Totam, quia aliquam.</SlideInOnScroll>
+          <SlideInOnScroll className='bg-dimPrimaryColor p-6 rounded-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta ipsa neque. Rerum dicta eaque eius assumenda. Itaque voluptatum commodi dignissimos alias nemo consequuntur quis ipsum cupiditate! Totam, quia aliquam.</SlideInOnScroll>
+          
         </section>
       </div>
     </div>

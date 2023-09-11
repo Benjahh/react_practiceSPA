@@ -1,17 +1,17 @@
 import { useEffect } from "react";
 
-export const useIntersectionObserver = (ref, controls)  => {
+export const useIntersectionObserver = (ref, controls, threshold)  => {
     useEffect(() => {
         const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                controls.start('visible');
+                controls.start('final');
             }
             });
         },
         {
-            threshold: 0.5,
+            threshold: threshold,
         }
         );
 

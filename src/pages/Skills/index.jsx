@@ -1,7 +1,7 @@
 import React from 'react'
 import { frontEndTech, backEndTech, otherTech } from '@/data' 
 import { flexBetweeen } from '@/data'
-import  FadeInOnScroll from '../../components/FramerComponents'
+import  { FadeInOnScroll }from '../../components/FramerComponents'
 export const SkillPage = () => {
   
   return (
