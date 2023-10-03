@@ -1,7 +1,4 @@
-import React from "react";
 import { flexBetweeen, projects } from "../../data";
-import { SiGithub } from "react-icons/si";
-import { TbExternalLink } from "react-icons/tb";
 import ProjectCard from "../../components/Cards/ProjectCard";
 
 export const ProjectPage = () => {
