@@ -8,7 +8,7 @@ import { Footer } from '@/components/Footer';
 
 function App() {
   return (
-    <div className="w-screen font h-screen mainc-container">
+    <div className="w-screen font h-screen custom-style">
       <Navbar />
       <HomePage />
       <AboutPage />

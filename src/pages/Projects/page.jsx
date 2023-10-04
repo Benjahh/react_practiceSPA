@@ -1,5 +1,5 @@
-import { flexBetweeen, projects } from "../../data";
-import ProjectCard from "../../components/Cards/ProjectCard";
+import { flexBetweeen, projects } from '../../data';
+import ProjectCard from '../../components/Cards/ProjectCard';
 
 export const ProjectPage = () => {
   return (

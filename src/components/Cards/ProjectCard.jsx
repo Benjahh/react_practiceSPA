@@ -1,4 +1,4 @@
-const ThreadCard = ({
+const ProjectCard = ({
   projectLink,
   projectImage,
   projectRepo,
@@ -10,14 +10,14 @@ const ThreadCard = ({
 }) => {
   return (
     <article className="flex-col flex gap-24 mt-8 border-2  ">
-      {/* <div
+      <div
         className={` relative flex items-center ${
-          reverse ? "flex-row-reverse" : " flex-row"
+          reverse ? 'flex-row-reverse' : ' flex-row'
         }`}
       >
         <section
           className={`w-[700px] self-start h-[340px] ${
-            reverse ? "pr-32" : "pl-24"
+            reverse ? 'pr-32' : 'pl-24'
           }`}
         >
           <img
@@ -29,27 +29,27 @@ const ThreadCard = ({
 
         <div
           className={`flex flex-col gap-4 p-2 ${
-            reverse ? "left-0" : "right-0"
+            reverse ? 'left-0' : 'right-0'
           } absolute w-5/6 `}
         >
           <section className={`${flexBetweeen} flex-col gap-2`}>
             <h3
               className={`${
-                reverse ? "self-start" : "self-end"
+                reverse ? 'self-start' : 'self-end'
               } text-blueColor font-bold text-md`}
             >
               {projectType}
             </h3>
             <h3
               className={`${
-                reverse ? "self-start" : "self-end"
+                reverse ? 'self-start' : 'self-end'
               } text-xl text-white`}
             >
               {projectName}
             </h3>
             <p
               className={`${
-                reverse ? "text-left self-start" : "self-end text-right"
+                reverse ? 'text-left self-start' : 'self-end text-right'
               } w-7/12 p-4 rounded-xl bg-dimPrimaryColor`}
             >
               {projectDescription}
@@ -58,7 +58,7 @@ const ThreadCard = ({
 
           <section
             className={`${
-              reverse ? "self-start" : "self-end"
+              reverse ? 'self-start' : 'self-end'
             } items-center flex flex-row gap-2`}
           >
             {projectSkill.map(({ id, skillName, color, Icon }) => (
@@ -77,7 +77,7 @@ const ThreadCard = ({
 
           <section
             className={`flex flex-row gap-2  ${
-              reverse ? "self-start" : "self-end"
+              reverse ? 'self-start' : 'self-end'
             } `}
           >
             <a
@@ -94,9 +94,9 @@ const ThreadCard = ({
             </a>
           </section>
         </div>
-      </div> */}
+      </div>
     </article>
   );
 };
 
-export default ThreadCard;
+export default ProjectCard;
