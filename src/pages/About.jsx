@@ -1,5 +1,5 @@
 import React from "react";
-import { flexBetweeen } from "@/data";
+import { flexBetweeen } from "../data";
 
 export const AboutPage = () => {
   return (
@@ -13,31 +13,31 @@ export const AboutPage = () => {
           className={`${flexBetweeen} flex-col text-lg text-left gap-6 text-white`}
         >
           <p>
-            Hi, my name is Lucas. I'm a{" "}
+            Hi, my name is Lucas. I'm a
             <span className="font-extrabold">Computer Engineering</span> student
-            with a passion for{" "}
+            with a passion for
             <span className="font-extrabold">Software Engineering</span>.
           </p>
           <p>
-            I'm currently pursuing{" "}
-            <span className="font-extrabold">Computer Engineering</span> at{" "}
+            I'm currently pursuing
+            <span className="font-extrabold">Computer Engineering</span> at
             <span className="font-extrabold">UA </span> (Universidad Americana),
             located in Asuncion, Paraguay.
           </p>
           <p>
-            I'm a full-stack developer, specializing in the{" "}
+            I'm a full-stack developer, specializing in the
             <span className="font-extrabold">MERN</span> stack (MongoDB,
             Express, React, and Node), and I'm keen on building high-quality,
             scalable web applications.
           </p>
           <p>
             My approach to application development is based on several core
-            principles. I prioritize creating{" "}
+            principles. I prioritize creating
             <span className="font-extrabold">modern</span> user interfaces that
             are visually <span className="font-extrabold">appealing</span> and
             easy to use. Additionally, I am committed to ensuring that every
-            application I build performs{" "}
-            <span className="font-extrabold">optimally </span>and is{" "}
+            application I build performs
+            <span className="font-extrabold">optimally </span>and is
             <span className="font-extrabold">user-friendly</span>.
           </p>
           <p>
